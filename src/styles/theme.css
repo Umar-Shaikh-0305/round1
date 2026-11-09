@@ -1,0 +1,52 @@
+/* Resident Evil, Cinematic Dark Theme. Change the colours here and the whole site follows. */
+:root {
+  --navy: #111722; /* main background */
+  --slate: #252d3a; /* cards and panels */
+  --fog: #aeb8c7; /* secondary text */
+  --forest: #34463f; /* navigation and accents */
+  --crimson: #922d35; /* buttons and alerts */
+  --gold: #a88b5c; /* special highlights */
+
+  /* derived tones (not in the palette image, easy to adjust) */
+  --black: #07090d;
+  --crimson-bright: #c8323d; /* glows, active borders */
+  --crimson-deep: #5e1a20;
+  --text: #e9edf3;
+  --amber: #e3a72f; /* last 5 minutes warning */
+  --ok: #3fb950;
+
+  --font-display: 'Teko', 'Arial Narrow', sans-serif;
+  --font-body: 'Rajdhani', system-ui, sans-serif;
+  --font-mono: 'Share Tech Mono', ui-monospace, monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--black);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 18px;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input {
+  font-family: inherit;
+}
